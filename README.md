@@ -1,15 +1,22 @@
 # ShatteringView
 
-[![CI Status](http://img.shields.io/travis/Stas Batururimi/ShatteringView.svg?style=flat)](https://travis-ci.org/Stas Batururimi/ShatteringView)
-[![Version](https://img.shields.io/cocoapods/v/ShatteringView.svg?style=flat)](http://cocoapods.org/pods/ShatteringView)
-[![License](https://img.shields.io/cocoapods/l/ShatteringView.svg?style=flat)](http://cocoapods.org/pods/ShatteringView)
-[![Platform](https://img.shields.io/cocoapods/p/ShatteringView.svg?style=flat)](http://cocoapods.org/pods/ShatteringView)
+
+
+
+## Demo
+[![Demo ShatteringView alpha]()](http://share.gifyoutube.com/yXO4L8.gif)
+
 
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+To animate the view
+```
+ [self.viewToSplash smashIt:YES onCompletion:^(BOOL finished) {
+        self.viewToSplash.hidden = NO;
+    }];
+```
 
 ## Installation
 
