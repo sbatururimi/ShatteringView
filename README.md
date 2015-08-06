@@ -4,7 +4,7 @@
 
 
 ## Demo
-[![Demo ShatteringView alpha]()](http://share.gifyoutube.com/yXO4L8.gif)
+[![Demo ShatteringView alpha](http://share.gifyoutube.com/yXO4L8.gif)]
 
 
 ## Usage
