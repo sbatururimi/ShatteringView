@@ -1,5 +1,5 @@
 PODS:
-  - ShatteringView (0.1.0)
+  - ShatteringView (1.0.0)
 
 DEPENDENCIES:
   - ShatteringView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ShatteringView: 5ad5da712a4095e8568369b4677e2832406c5a57
+  ShatteringView: aa05618a5601f09f77f9e67dd6a9c31d76ce8c56
 
 COCOAPODS: 0.38.2

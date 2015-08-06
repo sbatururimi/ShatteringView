@@ -2,11 +2,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'ShatteringView_Example', :exclusive => true do
-  pod "ShatteringView", :path => "../"
+  pod "ShatteringView"
 end
 
 target 'ShatteringView_Tests', :exclusive => true do
-  pod "ShatteringView", :path => "../"
+  pod "ShatteringView"
 
   
 end

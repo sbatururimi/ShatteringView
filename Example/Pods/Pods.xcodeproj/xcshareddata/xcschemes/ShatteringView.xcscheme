@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F09E44225A5B83B09EA9E0E1"
+               BlueprintIdentifier = "6703F1C5D3A6DE77241E1411"
                BuildableName = "ShatteringView.framework"
                BlueprintName = "ShatteringView"
                ReferencedContainer = "container:Pods.xcodeproj">
