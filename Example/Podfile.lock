@@ -1,0 +1,14 @@
+PODS:
+  - ShatteringView (0.1.0)
+
+DEPENDENCIES:
+  - ShatteringView (from `../`)
+
+EXTERNAL SOURCES:
+  ShatteringView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ShatteringView: 5ad5da712a4095e8568369b4677e2832406c5a57
+
+COCOAPODS: 0.38.2

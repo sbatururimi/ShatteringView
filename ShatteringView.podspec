@@ -9,22 +9,15 @@
 
 Pod::Spec.new do |s|
   s.name             = "ShatteringView"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of ShatteringView."
-  s.description      = <<-DESC
-                       An optional longer description of ShatteringView
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ShatteringView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.version          = "1.0.0"
+  s.summary          = "A view with a splitting into pieces animation"
+  s.homepage         = "https://github.com/virt87/ShatteringView"
   s.license          = 'MIT'
   s.author           = { "Stas Batururimi" => "blueocean87@me.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ShatteringView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/virt87/ShatteringView.git", :tag => 1.0.0 }
+  # s.social_media_url = 'https://twitter.com/stas_robson'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '7.1'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -33,6 +26,4 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

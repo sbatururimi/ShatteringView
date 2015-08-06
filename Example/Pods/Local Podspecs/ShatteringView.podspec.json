@@ -1,0 +1,25 @@
+{
+  "name": "ShatteringView",
+  "version": "0.1.0",
+  "summary": "A short description of ShatteringView.",
+  "description": "An optional longer description of ShatteringView\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ShatteringView",
+  "license": "MIT",
+  "authors": {
+    "Stas Batururimi": "blueocean87@me.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ShatteringView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "ShatteringView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
