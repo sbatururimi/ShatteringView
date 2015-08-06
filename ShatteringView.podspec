@@ -7,23 +7,19 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 
-Pod::Spec.new do |s|
-  s.name             = "ShatteringView"
-  s.version          = "1.0.0"
-  s.summary          = "A view with a splitting into pieces animation"
-  s.homepage         = "https://github.com/virt87/ShatteringView"
-  s.license          = 'MIT'
-  s.author           = { "Stas Batururimi" => "blueocean87@me.com" }
-  s.source           = { :git => "https://github.com/virt87/ShatteringView.git", :tag => 1.0.0 }
-  # s.social_media_url = 'https://twitter.com/stas_robson'
+Pod::Spec.new do |spec|
+  spec.name             = "ShatteringView"
+  spec.version          = "1.0.0"
+  spec.summary          = "A view with a splitting into pieces animation"
+  spec.homepage         = "https://github.com/virt87/ShatteringView"
+  spec.license          = 'MIT'
+  spec.author           = { "Stas Batururimi" => "blueocean87@me.com" }
+  spec.source           = { :git => "https://github.com/virt87/ShatteringView.git", :tag => '1.0.0' }
+  spec.social_media_url = 'https://twitter.com/stas_robson'
 
-  s.platform     = :ios, '7.1'
-  s.requires_arc = true
+  spec.ios.deployment_target = '7.1'
+  spec.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'ShatteringView' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  spec.source_files = 'Pod/Classes/**/*'
+  spec.public_header_files = 'Pod/Classes/{ShatteringView}.h'
 end

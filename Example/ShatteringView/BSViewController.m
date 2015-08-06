@@ -7,8 +7,10 @@
 //
 
 #import "BSViewController.h"
+#import "shatteringView.h"
 
 @interface BSViewController ()
+@property (weak, nonatomic) IBOutlet ShatteringView *viewToSplash;
 
 @end
 
@@ -24,6 +26,15 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)animationAction:(id)sender {
+    self.viewToSplash.animationDuration = 5.0f;
+    self.viewToSplash.radiusMultiplier = 2.;
+    
+    [self.viewToSplash smashIt:YES onCompletion:^(BOOL finished) {
+        self.viewToSplash.hidden = NO;
+    }];
 }
 
 @end

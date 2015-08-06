@@ -7,94 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18FDF7988521810494D47F719F9855C9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E22876D657B87E25564774806D39B5 /* ReplaceMe.m */; };
+		0A718FA2C5A712C4BBE3F5E7677FBDB7 /* ShatteringView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34A73CC8B43DD3246E11D606808A7B9 /* ShatteringView.m */; };
 		2185567279B1F9AE852DA98B6DEF84CE /* Pods-ShatteringView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 569E84F015D62CFEF6D693EC8ED790EF /* Pods-ShatteringView_Tests-dummy.m */; };
-		64C0E5A556E860C56958C46C9BD8FE9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D82FCFD59E37CFD89B83DE0A1BB16B /* Foundation.framework */; };
-		8F00EF10C49C89A880293A148DDB181A /* ShatteringView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83849DB7D1015666F6D6433B715B09C2 /* ShatteringView-dummy.m */; };
+		4586CFAA55705FB49D01875E90F2276D /* ShatteringView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEA650503FB2BA15D23B7B031D612D8 /* ShatteringView-dummy.m */; };
+		4CE8080CDD45044D287D4996B7739A5D /* ShatteringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFA9C305941D30091DD3CF199A4A876 /* ShatteringView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C0E5A556E860C56958C46C9BD8FE9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DA8E4D55A2CA47C23F9D16AE0951B7 /* Foundation.framework */; };
 		A7E0A1FC79CCD6F7BC2F0054675DF94A /* Pods-ShatteringView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 278662DCE9120EF245A4340F912803F6 /* Pods-ShatteringView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC764CF2E5BC4470473B6519F336DE52 /* ShatteringView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 803665B109C166192E3E279EC20BE5A3 /* ShatteringView.bundle */; };
 		B04983FCBFA674EEAE8F7C73A2E8E233 /* Pods-ShatteringView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA6DA311849241DC60EA265145C1239 /* Pods-ShatteringView_Example-dummy.m */; };
-		B29F6200609810E1BA94D965AC8DC6E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D82FCFD59E37CFD89B83DE0A1BB16B /* Foundation.framework */; };
+		B29F6200609810E1BA94D965AC8DC6E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DA8E4D55A2CA47C23F9D16AE0951B7 /* Foundation.framework */; };
+		D1A7B04AA21B3B42E274C13211F8EEA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DA8E4D55A2CA47C23F9D16AE0951B7 /* Foundation.framework */; };
+		DBB3203142043F3CC7855D4EF4C7978B /* ShatteringView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA686FC2FA1CA91AF5716FECE0CF5DAA /* ShatteringView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0E554A8802E0A4107D267D36E948A68 /* Pods-ShatteringView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06920525E7A3FC4054B2A9F3152D2F8E /* Pods-ShatteringView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1F5A5B3DBDAC05B38DF1E291F6CC600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D82FCFD59E37CFD89B83DE0A1BB16B /* Foundation.framework */; };
-		F059AD9D4421A82C2C067FCF06B214C8 /* ShatteringView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1111BAE6E1B19A8041FBD149147D215D /* ShatteringView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5A673BCF02E7DBC8FC1F66ADD620F075 /* PBXContainerItemProxy */ = {
+		152A7C5A0004D0AFF1E17E2B7042E13D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 41959E3DD08E77E03E227942F1F0C192;
+			remoteGlobalIDString = CF68416E49F5F98C47625C125CAE2C2A;
 			remoteInfo = ShatteringView;
 		};
-		73169B934B0EBBA7A69DD221A622BF61 /* PBXContainerItemProxy */ = {
+		C3AB5C7557679B4248A5712193B28FFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 41959E3DD08E77E03E227942F1F0C192;
+			remoteGlobalIDString = CF68416E49F5F98C47625C125CAE2C2A;
 			remoteInfo = ShatteringView;
-		};
-		B8195BFCC3F068BFCCEE6D98E5076F0F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 64A858398B573838630DE5BB1952A781;
-			remoteInfo = "ShatteringView-ShatteringView";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0029D85659C0BE554027F243B585451B /* ShatteringView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShatteringView.xcconfig; sourceTree = "<group>"; };
-		04E22876D657B87E25564774806D39B5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		06920525E7A3FC4054B2A9F3152D2F8E /* Pods-ShatteringView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShatteringView_Example-umbrella.h"; sourceTree = "<group>"; };
 		07AF408F1824A0C87B94EDA9C8F9FCB2 /* Pods-ShatteringView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShatteringView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0AFA9C305941D30091DD3CF199A4A876 /* ShatteringView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShatteringView.h; sourceTree = "<group>"; };
 		0B29C8645B50C9934914A6CA493D9C8E /* Pods_ShatteringView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShatteringView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D45BD4B2B51DE9E6DBB34CD135D8C3B /* Pods-ShatteringView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShatteringView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1111BAE6E1B19A8041FBD149147D215D /* ShatteringView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShatteringView-umbrella.h"; sourceTree = "<group>"; };
 		1C2AC3F6CF55CEFE9CBA9EE72027181D /* Pods-ShatteringView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShatteringView_Tests-resources.sh"; sourceTree = "<group>"; };
 		1DA6DA311849241DC60EA265145C1239 /* Pods-ShatteringView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShatteringView_Example-dummy.m"; sourceTree = "<group>"; };
 		278662DCE9120EF245A4340F912803F6 /* Pods-ShatteringView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShatteringView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		399AA17498C32B0C1C52EF7D1F2EE9E9 /* Pods-ShatteringView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShatteringView_Example-resources.sh"; sourceTree = "<group>"; };
 		49F5573FD45BDE6F8DCD13102A33824A /* Pods_ShatteringView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShatteringView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F6CA7341D68CDF958ACEE6C5B7D14B6 /* Pods-ShatteringView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShatteringView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		50983DEF1904E063374A3926AB27F0CE /* ShatteringView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ShatteringView-Private.xcconfig"; sourceTree = "<group>"; };
 		569E84F015D62CFEF6D693EC8ED790EF /* Pods-ShatteringView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShatteringView_Tests-dummy.m"; sourceTree = "<group>"; };
 		59B6DBAA751B105A2C9C253A4721B987 /* ShatteringView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShatteringView-prefix.pch"; sourceTree = "<group>"; };
-		59B80FDE8ED76055BDB31C6893827132 /* ShatteringView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ShatteringView-Private.xcconfig"; sourceTree = "<group>"; };
 		65A09A3D8D4E1314F93A35AA56A9AF21 /* Pods-ShatteringView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShatteringView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		66C21E4C065BDB5D3F7F1BA1BD6D54BB /* Pods-ShatteringView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShatteringView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		74221846BCDA949B10A503C5FAF2D4C4 /* ShatteringView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShatteringView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		803665B109C166192E3E279EC20BE5A3 /* ShatteringView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShatteringView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		83849DB7D1015666F6D6433B715B09C2 /* ShatteringView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShatteringView-dummy.m"; sourceTree = "<group>"; };
 		921F1376EA15C8A242C5556ED18653BF /* Pods-ShatteringView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShatteringView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9870D2DB780C28ABD1BD0702F23B84B2 /* Pods-ShatteringView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ShatteringView_Tests.modulemap"; sourceTree = "<group>"; };
 		9CFD70DC737CF5BCEC684BB1DAA26EA0 /* Pods-ShatteringView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShatteringView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A6D59390AE1ED0A80F33AB4229653342 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8BDB86737F6207264374F3748217719 /* Pods-ShatteringView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShatteringView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B34A73CC8B43DD3246E11D606808A7B9 /* ShatteringView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShatteringView.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA686FC2FA1CA91AF5716FECE0CF5DAA /* ShatteringView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShatteringView-umbrella.h"; sourceTree = "<group>"; };
 		BC77A8E17EE8E977383650A420EB855C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCB2A705D4DB41B8721101B8D130FA45 /* Pods-ShatteringView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ShatteringView_Example.modulemap"; sourceTree = "<group>"; };
 		C0727466EA433A2CAE3BC217182EDBE2 /* Pods-ShatteringView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShatteringView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C1BCBC3AD3B78AA3AF037CFEB1465B7C /* Pods-ShatteringView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShatteringView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CE1FB6AA3BD9E5BA93F0AD7CD7E44401 /* ShatteringView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ShatteringView.modulemap; sourceTree = "<group>"; };
+		DFEA650503FB2BA15D23B7B031D612D8 /* ShatteringView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShatteringView-dummy.m"; sourceTree = "<group>"; };
 		E05EECD8939518F422F88DEEA306A1B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1D82FCFD59E37CFD89B83DE0A1BB16B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E4DA8E4D55A2CA47C23F9D16AE0951B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FCAF9D64BD5672A6182870022CD037F0 /* ShatteringView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShatteringView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2F7CCC60EA1AC22C39C6EAFED4976199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A7B04AA21B3B42E274C13211F8EEA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		315F09F8DA16FD7B2095165369230033 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				64C0E5A556E860C56958C46C9BD8FE9D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C34B413283D954C7C136A70FF30E72FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1F5A5B3DBDAC05B38DF1E291F6CC600 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,16 +99,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAB84BE13722CD7F63EC4D75B6223AB1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A1FD33CAEFAAFD52B97E2F7525562A3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0AFA9C305941D30091DD3CF199A4A876 /* ShatteringView.h */,
+				B34A73CC8B43DD3246E11D606808A7B9 /* ShatteringView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		21CBFB5EE41A2170F149D1AD48381B25 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,20 +119,20 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		3927C635A76AFE0A94BBA703EA1EF90A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1A1FD33CAEFAAFD52B97E2F7525562A3 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F1D82FCFD59E37CFD89B83DE0A1BB16B /* Foundation.framework */,
+				E4DA8E4D55A2CA47C23F9D16AE0951B7 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		626C337DC485BDC1D64410BE9A9BB675 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FCA0AF2C3D6A4B36D2BC8B0E8B176BFC /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		6F0B3A0210EFBBB11136F6F9B3EEBD99 /* Pods-ShatteringView_Tests */ = {
@@ -193,10 +188,10 @@
 				A6D59390AE1ED0A80F33AB4229653342 /* Info.plist */,
 				CE1FB6AA3BD9E5BA93F0AD7CD7E44401 /* ShatteringView.modulemap */,
 				0029D85659C0BE554027F243B585451B /* ShatteringView.xcconfig */,
-				59B80FDE8ED76055BDB31C6893827132 /* ShatteringView-Private.xcconfig */,
-				83849DB7D1015666F6D6433B715B09C2 /* ShatteringView-dummy.m */,
+				50983DEF1904E063374A3926AB27F0CE /* ShatteringView-Private.xcconfig */,
+				DFEA650503FB2BA15D23B7B031D612D8 /* ShatteringView-dummy.m */,
 				59B6DBAA751B105A2C9C253A4721B987 /* ShatteringView-prefix.pch */,
-				1111BAE6E1B19A8041FBD149147D215D /* ShatteringView-umbrella.h */,
+				BA686FC2FA1CA91AF5716FECE0CF5DAA /* ShatteringView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ShatteringView";
@@ -215,8 +210,7 @@
 			children = (
 				49F5573FD45BDE6F8DCD13102A33824A /* Pods_ShatteringView_Example.framework */,
 				0B29C8645B50C9934914A6CA493D9C8E /* Pods_ShatteringView_Tests.framework */,
-				803665B109C166192E3E279EC20BE5A3 /* ShatteringView.bundle */,
-				74221846BCDA949B10A503C5FAF2D4C4 /* ShatteringView.framework */,
+				FCAF9D64BD5672A6182870022CD037F0 /* ShatteringView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,18 +224,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FCA0AF2C3D6A4B36D2BC8B0E8B176BFC /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				04E22876D657B87E25564774806D39B5 /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		FD1993F6E61C4D04588822519F26A2EA /* ShatteringView */ = {
 			isa = PBXGroup;
 			children = (
-				626C337DC485BDC1D64410BE9A9BB675 /* Pod */,
+				3927C635A76AFE0A94BBA703EA1EF90A /* Pod */,
 				AB7F2CF29C5AD9D70CBE7FF238532F94 /* Support Files */,
 			);
 			name = ShatteringView;
@@ -251,19 +237,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		17400A98799768CE931CEB726105F2FB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F059AD9D4421A82C2C067FCF06B214C8 /* ShatteringView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9DCB443B1332FDBAE26A3F839B4DEC53 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E0E554A8802E0A4107D267D36E948A68 /* Pods-ShatteringView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24B6C4AF3625A8A812914E26891C65B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB3203142043F3CC7855D4EF4C7978B /* ShatteringView-umbrella.h in Headers */,
+				4CE8080CDD45044D287D4996B7739A5D /* ShatteringView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,42 +265,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		41959E3DD08E77E03E227942F1F0C192 /* ShatteringView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5901B5EA0B02F6B26CF0FBE2DBF720B0 /* Build configuration list for PBXNativeTarget "ShatteringView" */;
-			buildPhases = (
-				990A6241FCE197FE6B2EA5FD4DDBB211 /* Sources */,
-				C34B413283D954C7C136A70FF30E72FA /* Frameworks */,
-				FBF85DBB69052EB6D4F6EC2470CE9AC4 /* Resources */,
-				17400A98799768CE931CEB726105F2FB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CAF5F24A098F17E1F6D9C5CDEF7F3744 /* PBXTargetDependency */,
-			);
-			name = ShatteringView;
-			productName = ShatteringView;
-			productReference = 74221846BCDA949B10A503C5FAF2D4C4 /* ShatteringView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		64A858398B573838630DE5BB1952A781 /* ShatteringView-ShatteringView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 608BAFD0A3523B1E109AE52EFBECC058 /* Build configuration list for PBXNativeTarget "ShatteringView-ShatteringView" */;
-			buildPhases = (
-				3C191ED776F436A10978758617AE677F /* Sources */,
-				FAB84BE13722CD7F63EC4D75B6223AB1 /* Frameworks */,
-				E32299E41B15A530D143FECF4CABF544 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ShatteringView-ShatteringView";
-			productName = "ShatteringView-ShatteringView";
-			productReference = 803665B109C166192E3E279EC20BE5A3 /* ShatteringView.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		AB83B270D3692FFDBED7048A9321AA07 /* Pods-ShatteringView_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1316A837E5D3672AD5A3E54F7856405 /* Build configuration list for PBXNativeTarget "Pods-ShatteringView_Tests" */;
@@ -325,7 +276,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				71A07F3E90EA91838CE29F9A206A4640 /* PBXTargetDependency */,
+				B5B16FBA775EFF203151E959D6592BD3 /* PBXTargetDependency */,
 			);
 			name = "Pods-ShatteringView_Tests";
 			productName = "Pods-ShatteringView_Tests";
@@ -343,11 +294,28 @@
 			buildRules = (
 			);
 			dependencies = (
-				0460F19E6D17FB214AAB24C53DC18CC9 /* PBXTargetDependency */,
+				567DF80010C45739D29E1B7FA47F8754 /* PBXTargetDependency */,
 			);
 			name = "Pods-ShatteringView_Example";
 			productName = "Pods-ShatteringView_Example";
 			productReference = 49F5573FD45BDE6F8DCD13102A33824A /* Pods_ShatteringView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF68416E49F5F98C47625C125CAE2C2A /* ShatteringView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8509617D917A040110CB6D195FC2DC /* Build configuration list for PBXNativeTarget "ShatteringView" */;
+			buildPhases = (
+				570ADB34106EF2E73E79158C56F8956E /* Sources */,
+				2F7CCC60EA1AC22C39C6EAFED4976199 /* Frameworks */,
+				E24B6C4AF3625A8A812914E26891C65B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShatteringView;
+			productName = ShatteringView;
+			productReference = FCAF9D64BD5672A6182870022CD037F0 /* ShatteringView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -373,35 +341,18 @@
 			targets = (
 				CA0977FCD64E8C3BA13A9D6759C0FC62 /* Pods-ShatteringView_Example */,
 				AB83B270D3692FFDBED7048A9321AA07 /* Pods-ShatteringView_Tests */,
-				41959E3DD08E77E03E227942F1F0C192 /* ShatteringView */,
-				64A858398B573838630DE5BB1952A781 /* ShatteringView-ShatteringView */,
+				CF68416E49F5F98C47625C125CAE2C2A /* ShatteringView */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		E32299E41B15A530D143FECF4CABF544 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FBF85DBB69052EB6D4F6EC2470CE9AC4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC764CF2E5BC4470473B6519F336DE52 /* ShatteringView.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		3C191ED776F436A10978758617AE677F /* Sources */ = {
+		570ADB34106EF2E73E79158C56F8956E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4586CFAA55705FB49D01875E90F2276D /* ShatteringView-dummy.m in Sources */,
+				0A718FA2C5A712C4BBE3F5E7677FBDB7 /* ShatteringView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,15 +361,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2185567279B1F9AE852DA98B6DEF84CE /* Pods-ShatteringView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		990A6241FCE197FE6B2EA5FD4DDBB211 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18FDF7988521810494D47F719F9855C9 /* ReplaceMe.m in Sources */,
-				8F00EF10C49C89A880293A148DDB181A /* ShatteringView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,23 +375,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0460F19E6D17FB214AAB24C53DC18CC9 /* PBXTargetDependency */ = {
+		567DF80010C45739D29E1B7FA47F8754 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ShatteringView;
-			target = 41959E3DD08E77E03E227942F1F0C192 /* ShatteringView */;
-			targetProxy = 73169B934B0EBBA7A69DD221A622BF61 /* PBXContainerItemProxy */;
+			target = CF68416E49F5F98C47625C125CAE2C2A /* ShatteringView */;
+			targetProxy = C3AB5C7557679B4248A5712193B28FFE /* PBXContainerItemProxy */;
 		};
-		71A07F3E90EA91838CE29F9A206A4640 /* PBXTargetDependency */ = {
+		B5B16FBA775EFF203151E959D6592BD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ShatteringView;
-			target = 41959E3DD08E77E03E227942F1F0C192 /* ShatteringView */;
-			targetProxy = 5A673BCF02E7DBC8FC1F66ADD620F075 /* PBXContainerItemProxy */;
-		};
-		CAF5F24A098F17E1F6D9C5CDEF7F3744 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ShatteringView-ShatteringView";
-			target = 64A858398B573838630DE5BB1952A781 /* ShatteringView-ShatteringView */;
-			targetProxy = B8195BFCC3F068BFCCEE6D98E5076F0F /* PBXContainerItemProxy */;
+			target = CF68416E49F5F98C47625C125CAE2C2A /* ShatteringView */;
+			targetProxy = 152A7C5A0004D0AFF1E17E2B7042E13D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -524,60 +460,6 @@
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		18775AD9EBB25BB1FD9707088A371186 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59B80FDE8ED76055BDB31C6893827132 /* ShatteringView-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ShatteringView/ShatteringView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ShatteringView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ShatteringView/ShatteringView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ShatteringView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2D850EACE04571470D9D623BB9DB5215 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59B80FDE8ED76055BDB31C6893827132 /* ShatteringView-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ShatteringView/ShatteringView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ShatteringView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ShatteringView/ShatteringView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ShatteringView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -668,6 +550,33 @@
 			};
 			name = Release;
 		};
+		9B2FFA22EF8522C9A4AF54A2720DEE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50983DEF1904E063374A3926AB27F0CE /* ShatteringView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ShatteringView/ShatteringView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShatteringView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShatteringView/ShatteringView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ShatteringView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DF1C99281A187B856C30CBDC750DB4D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D45BD4B2B51DE9E6DBB34CD135D8C3B /* Pods-ShatteringView_Tests.debug.xcconfig */;
@@ -697,29 +606,32 @@
 			};
 			name = Debug;
 		};
-		E9D611FD87D2C9FE9570847BCCA72C5B /* Debug */ = {
+		F4D6C637732065F628671BE809A26404 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59B80FDE8ED76055BDB31C6893827132 /* ShatteringView-Private.xcconfig */;
+			baseConfigurationReference = 50983DEF1904E063374A3926AB27F0CE /* ShatteringView-Private.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ShatteringView/ShatteringView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShatteringView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShatteringView/ShatteringView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = ShatteringView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		EA62C857367B8158AB9F1D1B7A40436A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59B80FDE8ED76055BDB31C6893827132 /* ShatteringView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ShatteringView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -742,20 +654,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5901B5EA0B02F6B26CF0FBE2DBF720B0 /* Build configuration list for PBXNativeTarget "ShatteringView" */ = {
+		9C8509617D917A040110CB6D195FC2DC /* Build configuration list for PBXNativeTarget "ShatteringView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D850EACE04571470D9D623BB9DB5215 /* Debug */,
-				18775AD9EBB25BB1FD9707088A371186 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		608BAFD0A3523B1E109AE52EFBECC058 /* Build configuration list for PBXNativeTarget "ShatteringView-ShatteringView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E9D611FD87D2C9FE9570847BCCA72C5B /* Debug */,
-				EA62C857367B8158AB9F1D1B7A40436A /* Release */,
+				F4D6C637732065F628671BE809A26404 /* Debug */,
+				9B2FFA22EF8522C9A4AF54A2720DEE48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

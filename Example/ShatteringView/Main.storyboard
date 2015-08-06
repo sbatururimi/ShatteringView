@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
@@ -16,12 +16,52 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dqa-0b-Aqo" customClass="ShatteringView">
+                                <rect key="frame" x="184" y="271" width="233" height="59"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="carPlate" translatesAutoresizingMaskIntoConstraints="NO" id="cPS-BI-rLc">
+                                        <rect key="frame" x="0.0" y="0.0" width="233" height="59"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="l2B-SZ-YII"/>
+                                    <constraint firstAttribute="width" constant="233" id="wkl-WP-l5I"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIf-Ps-Rwy">
+                                <rect key="frame" x="458" y="530" width="108" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="4Jg-TW-L9E"/>
+                                    <constraint firstAttribute="height" constant="30" id="7fk-z0-biQ"/>
+                                </constraints>
+                                <state key="normal" title="Animate">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="animationAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="iVi-bl-HK0"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="dqa-0b-Aqo" secondAttribute="centerY" id="XeE-0D-hT8"/>
+                            <constraint firstAttribute="trailing" secondItem="FIf-Ps-Rwy" secondAttribute="trailing" constant="34" id="b6j-TR-46f"/>
+                            <constraint firstAttribute="centerX" secondItem="dqa-0b-Aqo" secondAttribute="centerX" id="hsa-cH-MqE"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="FIf-Ps-Rwy" secondAttribute="bottom" constant="40" id="uGL-nd-QbO"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="viewToSplash" destination="dqa-0b-Aqo" id="sDm-kg-xIo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="305" y="433"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="carPlate" width="233" height="59"/>
+    </resources>
 </document>

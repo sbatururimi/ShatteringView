@@ -7,6 +7,7 @@
 //
 
 @import UIKit;
+#import "SHatTeringView.h"
 
 @interface BSAppDelegate : UIResponder <UIApplicationDelegate>
 
