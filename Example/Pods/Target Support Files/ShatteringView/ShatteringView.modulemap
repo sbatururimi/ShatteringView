@@ -1,6 +1,0 @@
-framework module ShatteringView {
-  umbrella header "ShatteringView-umbrella.h"
-
-  export *
-  module * { export * }
-}
