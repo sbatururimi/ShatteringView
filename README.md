@@ -13,8 +13,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 To animate the view
 ```
+ __weak BSViewController *weakSelf = self;
  [self.viewToSplash smashIt:YES onCompletion:^(BOOL finished) {
-        self.viewToSplash.hidden = NO;
+       // avoid strong reference cycles
+       BSViewController *strongSelf = weakSelf;
+       if(strongSelf){
+          strongSelf.viewToSplash.hidden = NO;
+        }
     }];
 ```
 
