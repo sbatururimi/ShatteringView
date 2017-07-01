@@ -32,8 +32,13 @@
     self.viewToSplash.animationDuration = 5.0f;
     self.viewToSplash.radiusMultiplier = 2.;
     
-    [self.viewToSplash smashIt:YES onCompletion:^(BOOL finished) {
-        self.viewToSplash.hidden = NO;
+    __weak BSViewController *weakSelf = self;
+     [self.viewToSplash smashIt:YES onCompletion:^(BOOL finished) {
+        // avoid strong reference cycles
+        BSViewController *strongSelf = weakSelf;
+        if(strongSelf){
+           strongSelf.viewToSplash.hidden = NO;
+        }
     }];
 }
 
